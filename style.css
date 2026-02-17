@@ -1,0 +1,122 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.container {
+    background-color: black;
+    margin: 0 auto;
+    width: 1300px;
+    font-size: 20px;
+    font-family: arial;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(238, 236, 236);
+}
+
+/* Заголовки */
+h1 {
+    font-size: 42px;
+    margin-top: 20px;
+    color: rgb(125, 204, 125);
+}   
+
+h2 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    border-top: 2px solid rgb(125, 204, 125);
+    padding-top: 20px;
+}
+
+h3 {
+    margin-top: 40px;
+    color: rgb(125, 204, 125);
+}
+.Bike-specs-name {
+    color: rgb(125, 204, 125);
+    margin-top: 10px;
+}
+
+/* Абзаци */
+p {
+    width: 900px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Навігація */
+nav {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(125, 204, 125);
+    transition: 0.3s;
+}
+
+a:hover {
+    color: white;
+}
+
+/* Блок категорій */
+#Power_menu {
+    padding: 20px 0;
+}
+
+/* Списки мотоциклів */
+#Low_power ul,
+#Medium_power ul,
+#High_power ul {
+    margin-top: 20px;
+}
+
+#Low_power li,
+#Medium_power li,
+#High_power li {
+    display: block;
+    margin: 10px 0;
+}
+
+/* Кнопка "Назад" */
+#Low_power p,
+#Medium_power p,
+#High_power p {
+    margin-top: 20px;
+}
+
+#Low_power a,
+#Medium_power a,
+#High_power a {
+    border: 2px solid rgb(125, 204, 125);
+    padding: 5px 15px;
+}
+
+#Low_power a:hover,
+#Medium_power a:hover,
+#High_power a:hover {
+    background-color: rgb(125, 204, 125);
+    color: black;
+}
+
+/* Footer*/
+footer {
+    margin-top: 80px;
+    padding-bottom: 30px;
+}
+
+img {
+    width: 600px;
+    display: inline-block;
+}
